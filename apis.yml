@@ -1,0 +1,130 @@
+name: Java Standard APIs
+description: Comprehensive collection of Java Standard Edition APIs and libraries
+image: https://www.java.com/favicon.ico
+created: 2024-01-01 00:00:00+00:00
+modified: 2024-01-01 00:00:00+00:00
+specificationVersion: '0.18'
+url: https://example.com/apis.json
+apis:
+- name: Java Core API
+  description: Core Java SE API including fundamental classes and utilities
+  image: https://www.oracle.com/java/technologies/images/java-logo.png
+  humanUrl: https://docs.oracle.com/en/java/javase/
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/
+  version: '21'
+  tags:
+  - java
+  - core
+  - standard-library
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/module-summary.html
+  - type: specification
+    url: https://docs.oracle.com/javase/specs/
+- name: Java Collections Framework
+  description: Interfaces and classes for storing and manipulating groups of objects
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/
+  tags:
+  - collections
+  - data-structures
+  - utilities
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/package-summary.html
+  - type: tutorial
+    url: https://docs.oracle.com/javase/tutorial/collections/
+- name: Java I/O API
+  description: Input and output through data streams, serialization and file system
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/
+  tags:
+  - io
+  - streams
+  - files
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/package-summary.html
+- name: Java NIO API
+  description: Non-blocking I/O operations for buffers, channels, and selectors
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/
+  tags:
+  - nio
+  - async-io
+  - buffers
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/package-summary.html
+- name: Java Networking API
+  description: APIs for networking applications including HTTP, sockets, and URLs
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/net/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/net/
+  tags:
+  - networking
+  - http
+  - sockets
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/net/package-summary.html
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.net.http/java/net/http/package-summary.html
+- name: Java Concurrency API
+  description: Utilities for concurrent programming including executors and locks
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/concurrent/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/concurrent/
+  tags:
+  - concurrency
+  - multithreading
+  - parallel
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/concurrent/package-summary.html
+- name: Java Database Connectivity (JDBC)
+  description: API for connecting and executing queries with databases
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.sql/java/sql/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.sql/
+  tags:
+  - database
+  - jdbc
+  - sql
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.sql/module-summary.html
+  - type: specification
+    url: https://jcp.org/en/jsr/detail?id=221
+- name: Java Reflection API
+  description: Examine and modify runtime behavior of applications
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/reflect/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/reflect/
+  tags:
+  - reflection
+  - introspection
+  - metadata
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/reflect/package-summary.html
+- name: Java Stream API
+  description: Functional-style operations on streams of elements
+  humanUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/package-summary.html
+  baseUrl: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/
+  tags:
+  - streams
+  - functional
+  - lambda
+  properties:
+  - type: documentation
+    url: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/package-summary.html
+  - type: tutorial
+    url: https://docs.oracle.com/javase/tutorial/collections/streams/
+maintainers:
+- name: Oracle Corporation
+  email: java-info@oracle.com
+  url: https://www.oracle.com/java/
+common:
+- type: license
+  url: https://www.oracle.com/downloads/licenses/javase-license1.html
+- type: terms-of-service
+  url: https://www.oracle.com/legal/terms.html
+- type: support
+  url: https://www.oracle.com/java/technologies/javase/support-roadmap.html
