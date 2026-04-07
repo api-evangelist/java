@@ -10,9 +10,9 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Java
-  - Programming Language
   - JVM
   - Oracle
+  - Programming Language
 url: >-
   https://raw.githubusercontent.com/api-evangelist/java/refs/heads/main/apis.yml
 created: '2024-01-01'
@@ -27,8 +27,8 @@ apis:
       foundational packages.
     humanURL: https://docs.oracle.com/en/java/javase/
     tags:
-      - Java
       - Core
+      - Java
       - Standard Library
     properties:
       - type: Documentation
