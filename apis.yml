@@ -59,6 +59,10 @@ apis:
       including List, Set, Map, and Queue implementations.
     humanURL: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/package-summary.html
     tags:
+      - Collection
+      - Data Structures
+      - Utilities
+    tags_raw:
       - Collections
       - Data Structures
       - Utilities
@@ -74,6 +78,10 @@ apis:
       system using the java.io package.
     humanURL: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/package-summary.html
     tags:
+      - File
+      - IO
+      - Streams
+    tags_raw:
       - Files
       - I/O
       - Streams
